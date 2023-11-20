@@ -2,9 +2,10 @@ require "sinatra"
 require "sinatra/reloader"
 
 get("/") do
-erb( :homepage)
-
+    erb( :homepage)
+    
 end
+
 
 
 get("/rock") do
